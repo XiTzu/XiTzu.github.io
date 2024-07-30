@@ -24,7 +24,7 @@
 
   
 
-  <title>about | XiTzu-Blog</title>
+  <title>数据结构与算法 | XiTzu-Blog</title>
 
   
 
@@ -48,7 +48,7 @@
   <div class="root-container">
     
 <!-- header container -->
-<header class="header-container">
+<header class="header-container post">
   
     <div class="post-image" style="background-image: url(https://qiniu.sukoshi.xyz/src/images/68686407_p0.jpg)"></div>
   
@@ -98,36 +98,149 @@
 
   
   
-
-  
-  
     <div class="header-content">
-      <div class="post-text layout-block layout-padding">
-        <h1 class="title-wrap">about</h1>
-        
+      <div class="post-text layout-block">
+        <div class="layout-margin">
+          <h1 class="title-wrap">数据结构与算法</h1>
+          <h2 class="title-sub-wrap">
+            <strong>Ma Sasa</strong>
+            <span>发布于</span>
+            <time  class="article-date" datetime="2024-07-30T11:06:06.803Z" itemprop="datePublished">2024-07-30</time>
+          </h2>
+          
+          
+          <ul class="wrap-list dark">
+  
+</ul>
+          <ul class="wrap-list dark">
+  
+</ul>
+        </div>
       </div>
     </div>
+  
+
+  
   
   
 </header>
 
-    <!-- 分页(其他自定义页面) -->
+    <!-- 文章 -->
 
-<!-- 自定义页面 -->
-
+<!-- 文章内容 -->
 <div class="body-container">
   <article class="content-container layout-block post-container">
     <div class="article-info">
       
+      
+      
+      
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        
+        <p><a name="数据结构与算法"></a></p>
+<h3 id="【数据结构】"><a href="#【数据结构】" class="headerlink" title="【数据结构】"></a>【数据结构】</h3><p>1.<strong>数据</strong>:“数据”是信息的载体，是客观事物的符号表示，是能输入到计算机中并被计算程序识别和处理的符号的总称，如文档，声音，视频等。<br />2.<strong>数据元素</strong>:现实世界中客观存在的一切数据。数据元素是数据的基本单位。<br />3.<strong>数据项</strong>:数据项是数据不可分割的最小单位，一个数据项可由若干个数据项组成。<br />4.<strong>数据结构</strong>:是指由某-数据对象中所有数据成员之间的关系组成的集合。<br><a name="r5PjB"></a></p>
+<h4 id="＃逻辑结构和存储结构＃＃"><a href="#＃逻辑结构和存储结构＃＃" class="headerlink" title="#＃逻辑结构和存储结构＃＃"></a>#＃逻辑结构和存储结构＃＃</h4><ol>
+<li>数据结构可分为数据的逻辑结构和存储结构。</li>
+</ol>
+<ul>
+<li><p><strong>数据的逻辑结构：</strong>是对数据元素之间的逻辑关系的描述，与数据的存储无关，是面向问题的，是独立于计算机的。它包括数据对象和数据对象之间的关系。</p>
+</li>
+<li><p><strong>数据的存储结构</strong>：也称为数据的物理结构，是数据在计算机中的存放的方式，是面向计算机的，它包括数据元素的存储方式和关系的存储方式。</p>
+</li>
+</ul>
+<p>2.<strong>存储结构和逻辑结构的关系</strong>: 一种数据的逻辑结构可以表示成多种存储结构，即数据的逻辑结构和存储结构不一定一一对应。</p>
+<p>3.常见的存储结构有:顺序，链接,索引等。采用不同的存储结构其数据处理的效率是不同的。<br><a name="IDtyp"></a></p>
+<h2 id="＊＊线性结构和非线性结构＊＊"><a href="#＊＊线性结构和非线性结构＊＊" class="headerlink" title="＊＊线性结构和非线性结构＊＊"></a>＊＊线性结构和非线性结构＊＊</h2><p>1、线性结构的条件(一个非空数据结构): <br /><strong>(1) 有且只有一-个根结点; <strong><br /></strong>(2) 每-一个结点最多有一一个前件,也最多有一-个后件。</strong><br />2、非线性结构:不满足线性结构条件的数据结构。</p>
+<ul>
+<li>栈、队列、双向链表是线性结构，树、二叉树为非线性结构。</li>
+</ul>
+<p><a name="A5ywb"></a></p>
+<h3 id="＃＃线性表及其顺序存储结构＃"><a href="#＃＃线性表及其顺序存储结构＃" class="headerlink" title="＃＃线性表及其顺序存储结构＃#"></a>＃＃线性表及其顺序存储结构＃#</h3><p>1、<strong>线性表</strong>是由一组数据元素构成，数据元素的位置只取决于自己的序号，元素之间的相对位置是线性的。<br />2、在复杂线性表中，由若干项数据元素组成的数据元素称为记录;由多个记录构成的线性表称为文件。<br />3、<strong>非空线性表的结构特征</strong>:<br />1)有且只有一一个根结点al,它无前件;<br />2)有且只有一一个终端结点an,它无后件;<br />3)除根结点与终端结点外，其他所有结点有且只有一个前件,也有且只有一个后件。结点个数n称为线性表的长度，当n&#x3D;0时，称为空表。<br />4、<strong>线性表的顺序存储结构具有以下两个基本特点:</strong><br />(1)线性表中所有元素所占的存储空间是连续的;，<br />(2)线性表中各数据元素在存储空间中是按逻辑顺序依次存放的。<br />元素ai的存储地址为: _ADR(ai)&#x3D;ADR(a1)+(i-1)*k, ADR(al)_为第一 个元素的地址, k代表每个元素占的字节数。<br />5.<strong>顺序表的运算</strong>:查找、插入、删除。<br><a name="fVdxU"></a></p>
+<h3 id="＃＃线性链表＃＃"><a href="#＃＃线性链表＃＃" class="headerlink" title="＃＃线性链表＃＃"></a>＃＃线性链表＃＃</h3><ol>
+<li><strong>线性链表</strong>：是线性表的链式存储结构，数据结构中的每一个结点对应于- 个存储单元，这种存储单元称为存储结点，简称结点。</li>
+<li><strong>结点由两部分组成:</strong></li>
+</ol>
+<p> (1) 用于存储数据元素值,称为数据域; <br /> (2)用于存放指针,称为指针域，用于指向前一个或后-个结点。<br />3.在链式存储结构中，存储数据结构的存储空间可以不连续,各数据结点的存储顺序与数据元素之间的逻辑关系可以不一致，而数据元素之间的逻辑关系是由指针域来确定的。</p>
+<p><strong>4.链式存储方式</strong>：既可用于表示线性结构，也可用于表示非线性结构。</p>
+<p>5.<strong>线性单链表中，HEAD称为头指针, HEAD NULL (或0)称为空表。</strong><br /><img src="https://cdn.nlark.com/yuque/0/2023/jpeg/38870902/1700011971281-d86cec97-cbf6-4099-b6cd-c21d055fc7df.jpeg#averageHue=%23eeeeee&from=url&id=J6EFi&originHeight=338&originWidth=1080&originalType=binary&ratio=1&rotation=0&showTitle=false&size=84146&status=done&style=none&title=" alt="1935618221.jpg"><br />6.**循环链表:**循环链表与单链表的不同的是它的最后-一个结点的指针域存放的事指向第-一个结点的指针而单链表存放的是空指针。</p>
+<p>7.<strong>线性链表的基本运算</strong>:查找、插入、删除。</p>
+<p><a name="KrmPl"></a></p>
+<h3 id="＃栈＃"><a href="#＃栈＃" class="headerlink" title="＃栈＃"></a>＃栈＃</h3><p><strong>1.栈的基本概念：</strong>是一种特殊的线性表，只允许在表的一端进行插入和删除的线性表;插入,删除的一端为栈顶，另一端为栈底;当表中没有元素时为空栈。</p>
+<ul>
+<li>栈是一种后进先出(或先进后出Last In First Out)的线性表。栈具有记忆功能。</li>
+<li>栈的实例:火车调度，子弹夹。</li>
+</ul>
+<p><strong>2、栈的存储结构</strong></p>
+<ul>
+<li><p>顺序存储结构:用一组地址连续的存储单元即维数组来存储;</p>
+</li>
+<li><p>链式存储:用线性链表来存储;</p>
+</li>
+</ul>
+<p><strong>3、栈的基本运算</strong><br />1)入栈运算,在栈顶位置插入元素;<br />(2)退栈运算,删除元素(取出栈顶元素并赋给-个指定的变量);<br />(3)读栈顶元素，将栈顶元素赋给-一个指定的变量, 此时指针无变化。<br><a name="IHhpW"></a></p>
+<h3 id="＊队列＊"><a href="#＊队列＊" class="headerlink" title="＊队列＊"></a>＊队列＊</h3><p>1.队列的基本概念<br />队列是一种特殊的线性表，只允许在表的一端插入，在另一端删除，允许插入的一端是队尾(rear), 允许删除的一端为队头(front); 当表中没有元素是空队列;<br />队列是一种先进先出的线性表。(FIFO)<br />2、队列的存储结构</p>
+<ul>
+<li>顺序存储: 一维数组。</li>
+<li>链式存储:线性链表。</li>
+</ul>
+<p>3、队列的运算:<br />(1)入队运算:从队尾插入一个元素; <br />(2) 退队运算:从队头删除一-个元素。<br />4、队列的顺序存储结构一般采用循环队列的形式。循环队列s&#x3D; 0表示队列为空; s&#x3D;1且front-rear 表示队满。<br />5、计算循环队列的元素个数:“尾指针减头指针”，若为负数，再加其容量即可。<br><a name="wH0Rd"></a></p>
+<h3 id="＊树＊"><a href="#＊树＊" class="headerlink" title="＊树＊"></a>＊树＊</h3><p>1.树是<strong>一种非线性结构，是n个结点的有限集</strong>。当n&#x3D;0时为空树，n&gt;0时为非空树。结点的度:结点所拥有的子树的个数。</p>
+<ul>
+<li>叶子结点:度为0的结点。</li>
+<li>分支结点:除叶子结点以外的结点。</li>
+<li>结点的层次:根结点在第-层，同- -层上左右结点的子结点在下一层。</li>
+</ul>
+<p><strong>2.树的深度</strong>:所处层次最大的那个结点的层次。<br />**3.树的度:**树中所有结点的度的最大值。<br><a name="TGeRk"></a></p>
+<h3 id="＃二叉树及其基本性质"><a href="#＃二叉树及其基本性质" class="headerlink" title="＃二叉树及其基本性质#"></a>＃二叉树及其基本性质#</h3><p>1<strong>、二叉树</strong>：是一种特殊的树形结构,每个结点最多只有两棵子树,且有左右之分不能互换,因此,二叉树有五种不同的形态。<br />2、二叉树的性质</p>
+<ul>
+<li>性质1：在二叉树的第k层上，最多有2*(k2I) 个结点。</li>
+<li>性质2：深度为m的二叉树最多有2＊-1个结点。</li>
+<li>性质3：在任意一棵二叉树中，度为0的结点(叶子结点)总是比度为2的结点多一个。</li>
+<li>性质4具有n个结点的二叉树,其深度不小于[log2n]+ l,其中[log2n]表示为log2n的整数部分。<br><a name="Wv9vP"></a></li>
+</ul>
+<h4 id="＊满二叉树与完全二叉树＊"><a href="#＊满二叉树与完全二叉树＊" class="headerlink" title="＊满二叉树与完全二叉树＊"></a>＊满二叉树与完全二叉树＊</h4><p><strong>1.满二叉树</strong>:除最后一层外，每-层上的所有结点都有两个子结点。在满二叉树中，每-层上的结点数都达到最大值，即在满二叉树的第k层上有21个结点，且深度为m的满二叉树有2*m-1个结点。<br />2.<strong>完全二叉树：</strong>除最后一层外，每一层上的结点数均达到最大值;在最后一层上只缺少右边的若干结点。</p>
+<p>满二叉树是完全二叉树，而完全二叉树一般不是满二叉树。<br><a name="VJSNT"></a></p>
+<h4 id="完全二叉树的性质"><a href="#完全二叉树的性质" class="headerlink" title="完全二叉树的性质"></a>完全二叉树的性质</h4><ul>
+<li>性质1具有n个结点的完全二叉树的深度为[log2n]+1。</li>
+<li>性质2：完全二叉树中度为1的结点数为0或1。</li>
+</ul>
+<p><strong>＃二叉树的遍历＃</strong><br />1、前序遍历:先访问根结点、然后遍历左子树，最后遍历右子树;并且，在遍历左、右子树时，仍然先访问根结点，然后遍历左子树，最后遍历右子树。<br />前序遍历图5可得: <strong>ABCDFHEG</strong>.<br />2、 中序遍历:先遍历左子树、然后访问根结点，最后遍历右子树;并且，在遍历左、右子树时，仍然先遍历左子树，, 然后访问根结点，最后遍历右子树。<br />中序遍历图5可得: BAFHDCGE。<br />3、后序遍历:先遍历左子树、然后遍历右子树，最后访问根结点;并且,在遍历左、右子树时，仍然先遍历左子树，然后遍历右子树，最后访问根结点。<br />后序遍历图5可得: BHFDGECA.<img src="https://cdn.nlark.com/yuque/0/2023/jpeg/38870902/1700012222019-75388c2f-d290-488b-a2a3-c8f2ecf9e83c.jpeg#averageHue=%23f8f8f8&from=url&id=yta5z&originHeight=676&originWidth=559&originalType=binary&ratio=1&rotation=0&showTitle=false&size=50996&status=done&style=none&title=" alt="1236991803.jpg"></p>
+
       </section>
 
       
       
+        <nav class="article-nav">
+          
+          
+            <div class="article-nav-item layout-padding">
+  <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
+    
+    <div class="card-text">
+      
+        <a href="/2024/07/23/hello-world/" itemprop="url">
+          <h2 class="card-text--title text-ellipsis">Hello World</h2>
+        </a>
+      
+      <div class="card-text--row">Older</div>
+    </div>
+  </article>
+</div>
+          
+        </nav>
+      
 
-      
-      
+      <section class="page-message-container layout-padding">
+        
+
+
+  
+  
+
+  
+  
+
+
+      </section>
     </div>
     <div class="widget-info">
       <section class="widget-author widget-item layout-margin content-padding--primary soft-size--large soft-style--box">
@@ -164,6 +277,8 @@
     </div>
   </div>
 </section>
+
+      
 
       
 <section class="widet-notice widget-item layout-margin content-padding--primary soft-size--large soft-style--box">
@@ -209,7 +324,6 @@
     </div>
   </article>
 </div>
-
 
     <!-- footer container -->
 <footer id="footer" class="footer">
